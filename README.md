@@ -63,14 +63,14 @@
 
 ## 代码部分
 
-打开config.ini设置平台
+#### 打开config.ini设置平台
 
 ```
 setplat =测试
 # 芝士超人 百度视频 冲顶大会 西瓜视频 UC 企鹅电竞
 ```
 
-setarea_xx参数为对应
+#### setarea_xx参数为对应
 
 ![fig5](/figure/fig5.png)
 
@@ -100,7 +100,7 @@ Point5: 5 394
 取点关闭！！！
 ```
 
-将145, 。。。,394替换到config.ini文件中 setarea_xx 参数
+#### 将145, 。。。,394替换到config.ini文件中 setarea_xx 参数
 
 ```
 #测试
@@ -111,14 +111,14 @@ setarea_cd =136,270,418,285,337,391
 setarea_xg =106,281,388,256,314,367
 ```
 
-再次运行，输出以下信息
+#### 再次运行，输出以下信息
 
 ```
 请将下行代码粘贴到GetPlatform函数相应位置！！
 ans_bg = "#F2F2F2"
 ```
 
-关闭程序，找到GetPlatform()在相应位置添加“ans_bg = "#F2F2F2"”
+#### 关闭程序，找到GetPlatform()在相应位置添加“ans_bg = "#F2F2F2"”
 
 ```
 ...
@@ -128,5 +128,5 @@ elif plat == "测试":
 ...
 ```
 
-再次运行
+#### 再次运行
 
